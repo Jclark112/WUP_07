@@ -78,6 +78,6 @@ The p-value for the chi-squared test is 0.001, so we reject the null hypothesis.
 The Fisher exact test shows that men are 2.3 times more likely to die than women in Korea.
 
 ## Conclusions
-There is a relationship between sex and the amount of deaths due to Covid in Korea. 
+Is dying independent of sex? The results show that sex is definitive of deaths due to Covid. Our P-value of 90.001 shows that death is not independent of sex. The Fisher test shows that men are 2.3 times likely to die There is a relationship between sex and the amount of deaths due to Covid in Korea. 
 
 
