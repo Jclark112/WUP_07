@@ -43,22 +43,29 @@ result depends on sex'we use helper file cat~cat
 
 
 ```{r}
-barchartGC(~class + Sex,data=ucdavis1)
-barchartGC(~class + Sex,data=ucdavis1, type="percent")
-
+barchartGC(~result + Sex,data=kRdata)
+barchartGC(~result + Sex,data=kRdata, type="percent")
 ```
+This barchart shows that the frequency of women to men in comparison to being alive is greater, and being dead is lower than that of men. 
+
+this barchart shows that...
+
+
+
 
 
   
-
-
-
-
-
+  
+  
   
 ## Numerical results
 
-
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
+this numerical summary shows that women were alive 12 more than men
 ## Inferential results 
 
 
