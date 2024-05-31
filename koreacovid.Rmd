@@ -32,6 +32,9 @@ state of a patient must be died or alive - we adjust that as well
   
 # Your Question - Is dying independent of sex?
 
+$H_A$:Dying is dependent of sex when it comes to covid in Korea.
+
+$H_0$:Dying is not dependent on sex when it comes to covid in Korea.
 
 # Methods
 
