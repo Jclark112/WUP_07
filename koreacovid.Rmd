@@ -42,6 +42,12 @@ result depends on sex'we use helper file cat~cat
 ## Graphical results - use ggplot commands to do this  
 
 
+```{r}
+barchartGC(~class + Sex,data=ucdavis1)
+barchartGC(~class + Sex,data=ucdavis1, type="percent")
+
+```
+
 
   
 
